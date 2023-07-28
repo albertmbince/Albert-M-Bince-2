@@ -1,0 +1,41 @@
+.New{
+    background:red;
+    color:blue;
+    width:100px;
+    height:100px:
+}
+.main{
+    background:yellow;
+    width:100px;
+    height:200px;
+}
+.box{
+    background-color: blueviolet;
+     margin-top: 2rem;
+    padding: 54px;
+    border:3rem dashed hsla(5, 45%, 56%, .6)
+}
+.text{
+    background-color: aquamarine;
+    text-align:left;
+}
+.parent{
+   background-color:black;
+    width: 400px;
+    height: 400px;
+}
+.child{
+    background-color: green;
+    text-align: center;
+    display: inline-block;
+    width: 67px;
+    height: 67px;
+    font-size: 19px;
+    font-weight:bolder;
+    font-family:'Courier New', Courier, monospace;
+    font-style: oblique;
+
+}
+.span{
+    display: block;
+}
