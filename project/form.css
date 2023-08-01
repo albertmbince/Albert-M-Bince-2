@@ -1,0 +1,23 @@
+input{
+    display: block;
+    margin: 1rem;
+}
+#submit{
+    width: 8rem;
+}
+#submit:valid{
+    background-color: green;
+}
+#submit:invalid{
+    background-color: red;
+}
+#email:valid{
+    background-color: green;
+}
+#email:invalid{
+    background-color: red;
+}
+#email:focus,#password:focus{
+    border: 2px solid blue;
+    outline: none;
+}
