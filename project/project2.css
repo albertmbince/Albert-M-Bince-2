@@ -1,0 +1,102 @@
+body,html{
+    width: 100vw;
+    height: 100vh;
+}
+body {
+    background: url("./batman.jpg");
+    background-size: cover;
+}
+main {
+    height: 100%;
+    width: 100%;
+}
+.nav-bar{
+    position: relative;
+}
+.icons{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    padding-left: 1rem;
+    padding-top: 6cm;
+    width: 6rem;
+    color: transparent;
+    background-color: #353333;;
+    box-shadow: 15px 0 100px 100px #353333;
+    
+}
+.icons:hover{
+    transform: scale(1.3);
+    transform: translateX(20%);
+    transition: .6s;
+    color:whitesmoke;
+    box-shadow: 30px 0 150px 150px #353333;
+}
+.items{
+    position: relative;
+    padding: 1rem;
+}
+.items::after {
+    content: attr(name);
+    position: absolute;
+    padding-left: 1rem;
+    transition: 0.3s;
+    transform: translateX();
+}
+
+.items:hover{
+
+    transition: .6s;
+    /* transform: translateX(20%); */
+    
+}
+.items:hover::after{
+    transform: translateX(30%);
+    font-weight: bolder;
+    
+}
+
+
+img{
+    width: 100%;
+    
+    
+    
+
+    
+}
+.logo{
+    position: absolute;
+    top: 0%;
+    z-index: 2;
+    /* transform: translateY(100%); */
+}
+.video{
+ 
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 15rem;
+    overflow-x: auto;
+   
+}
+.video > div {
+    padding-left: 2rem;
+    height: 100%;
+    width: max-content;
+    padding-bottom: 3rem;
+}
+span{
+    
+    float: left;
+    padding: 1rem;
+    height: 100%;
+}
+span img {
+    height: 100%;
+}
+/* img:hover{
+    transform: translateX(-10%);
+    transform: scale(1.2);
+} */
