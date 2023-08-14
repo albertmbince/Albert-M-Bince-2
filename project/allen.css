@@ -1,0 +1,60 @@
+
+.html,body{
+    margin: 0%;
+    border: 0%;
+}
+
+.navbar{
+    width: 100%;
+    height:5rem;
+    background-color: rgb(36, 35, 35);
+    display: flex;
+   
+   
+
+}
+.icons{
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    height: 100%;
+    width: 100%;
+}
+.items{
+    height: 100%;
+    width: 75%;
+    color: aliceblue;
+    padding: 1rem;
+    font-weight: bolder;
+    font-size: large;
+}
+.firstbox{
+ height: 100%;
+ color: white;
+ background-color: rgb(82, 82, 99);
+ display: flex;
+ gap:1rem;
+ text-align: center;
+ 
+}
+.items:hover{
+    background-color: white;
+    color: black;
+   
+}
+.secbar{
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    padding-left: 5rem;
+}
+ .secitems{
+    color: rgb(23, 23, 24);
+    font-weight: bolder;
+ }
+ .secitems:hover{
+    transform: scale(1.2);
+    color: blue;
+ }

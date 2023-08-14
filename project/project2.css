@@ -47,7 +47,7 @@ main {
     padding-left: 1rem;
     transition: 0.3s;
     transform: translateX();
-    z-index: 6;
+    z-index: index -3 ;
     
 }
 
@@ -61,7 +61,7 @@ main {
 .items:hover::after{
     transform: translateX(30%);
     font-weight: bolder;
-    z-index: 4;
+    z-index: -2;
     
     
     
@@ -109,7 +109,7 @@ video{
     position: absolute;
     width: 100%;
     padding-left: 5rem;
-    z-index: -2;
+    z-index:-2;
 }
 span{
     
@@ -128,7 +128,7 @@ span img {
     position:absolute;
     padding-left: 8rem;
     padding-top: 8cm;
-    z-index: 1;
+    z-index: 6;
     height: 3cm;
     width: 9cm;
     color: rgb(220, 224, 228);
