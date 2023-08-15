@@ -5,7 +5,7 @@
 }
 
 .navbar{
-    width: 100%;
+    width: 100vw;
     height:5rem;
     background-color: rgb(36, 35, 35);
     display: flex;
@@ -17,16 +17,20 @@
     display: flex;
     justify-content: start;
     text-align: start;
-    height: 100%;
-    width: 100%;
+    height: 6rem;
+    width: 100vw;
 }
 .items{
     height: 100%;
-    width: 75%;
+    width: 9rem;
     color: aliceblue;
     padding: 1rem;
+   
+    text-align:center;
     font-weight: bolder;
     font-size: large;
+    
+    
 }
 .firstbox{
  height: 100%;
@@ -43,18 +47,59 @@
    
 }
 .secbar{
+    
     height: 3rem;
     width: 100%;
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
     padding: 2rem;
     padding-left: 5rem;
+    
 }
  .secitems{
     color: rgb(23, 23, 24);
     font-weight: bolder;
+    
+    
  }
  .secitems:hover{
     transform: scale(1.2);
-    color: blue;
+    color: rgb(230, 15, 33);
  }
+ .imagebar{
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    gap: 8rem;
+    padding: 2rem;
+    padding-left: 5rem;
+}
+ img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+ }
+ .images:hover{
+    color: blue;
+    
+ }
+ .forthbar{
+    padding-top: 2rem;
+ }
+input{
+    border: none;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    height: 5rem;
+    width: 100%;
+
+}
+.secitems:hover + .dropdown{
+   
+    height: 34rem;
+    display: block;
+    background-color: rgb(223, 223, 235);
+    
+}
