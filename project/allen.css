@@ -5,7 +5,7 @@
 }
 
 .navbar{
-    width: 100vw;
+    width: 100%;
     height:5rem;
     background-color: rgb(36, 35, 35);
     display: flex;
@@ -21,11 +21,12 @@
     width: 100vw;
 }
 .items{
-    height: 100%;
+    height: 60%;
     width: 9rem;
     color: aliceblue;
     padding: 1rem;
-   
+    display: flex;
+    align-items: center;
     text-align:center;
     font-weight: bolder;
     font-size: large;
@@ -47,13 +48,15 @@
    
 }
 .secbar{
-    
+    position: sticky;
     height: 3rem;
     width: 100%;
     display: flex;
     gap: 4rem;
     padding: 2rem;
     padding-left: 5rem;
+    top: 0%;
+    background-color: white;
     
 }
  .secitems{
@@ -86,6 +89,8 @@
  .forthbar{
     padding-top: 2rem;
  }
+ .forthbar img {object-fit: cover;
+ }
 input{
     border: none;
 }
@@ -94,12 +99,61 @@ input{
     position: absolute;
     height: 5rem;
     width: 100%;
+    color: blue;
+    left: 0%;
+    font-weight: bolder;
+    top: 5rem;
 
 }
-.secitems:hover + .dropdown{
+.secitems:hover + .dropdown,.dropdown:hover{
    
     height: 34rem;
     display: block;
-    background-color: rgb(223, 223, 235);
+    background-color:white;
+    width: 100%;
+   
     
+}
+.dropdown::first-line{
+    color: black;
+}
+.locate{
+    background-color: yellow;
+    height: 19rem;
+
+}
+h1{
+    padding-top: 2rem;
+    font-weight:200 ;
+    color: blue;
+    padding-left: 4rem;
+}
+input{
+    background-color: yellow;
+    padding-left: 3rem;
+   
+    height: 3rem;
+    border-color: black;
+}
+h2{
+    color: blue;
+    font-weight:bold;
+    padding-left: 3rem;
+}
+fieldset{
+    border-color: rgb(173, 156, 156);
+}
+.signup{
+    width: 100%;
+    height:17rem;
+}
+.sign{
+    position: absolute;
+    left: 15rem;
+    
+    padding-left: 10rem;
+    width: 10rem;
+    height: 18rem;
+    
+    background-color: rgb(245, 245, 9);
 }
