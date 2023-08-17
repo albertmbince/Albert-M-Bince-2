@@ -9,6 +9,7 @@
     height:5rem;
     background-color: rgb(36, 35, 35);
     display: flex;
+    object-fit: contain;
    
    
 
@@ -83,13 +84,14 @@
     border-radius: 50%;
  }
  .images:hover{
-    color: blue;
+    color: rgb(19, 19, 233);
     
  }
  .forthbar{
     padding-top: 2rem;
  }
- .forthbar img {object-fit: cover;
+ .forthbar img {
+    object-fit: cover;
  }
 input{
     border: none;
@@ -156,4 +158,42 @@ fieldset{
     height: 18rem;
     
     background-color: rgb(245, 245, 9);
+}
+li{
+    list-style: none;
+}
+@media  only screen and (max-width:650px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        
+        width: 100%;
+        
+        
+    }
+    .secbar{
+        display: none;
+    }
+    .firstbox{
+        display: none;
+    }
+    .forthbar img{
+        
+    }
+    #input{
+        display: none;
+    }
+   .secbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   }
+   .imagebar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   }
+}
+.thirdbar img{
+    object-fit: contain;
 }
